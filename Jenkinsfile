@@ -10,8 +10,8 @@ pipeline {
 
         stage('Run Shell Script') {
             steps {
-                sh 'chmod +x ./create_image/create_ubuntu_image.sh'
-                sh './create_image/create_ubuntu_image.sh'
+                sh 'chmod +x ./create_image/hello.sh'
+                sh './create_image/hello.sh'
             }
         }
     }
